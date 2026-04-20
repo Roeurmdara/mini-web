@@ -1,0 +1,1014 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khmer Wanderer — A Travel Blog Through Cambodia</title>
+    <meta
+      name="description"
+      content="Discover Cambodia through honest stories, practical guides, and quiet observations. From Angkor Wat to the Mekong Delta — travel slowly, see deeply."
+    />
+    <meta
+      name="keywords"
+      content="Cambodia travel blog, Angkor Wat, Phnom Penh, Siem Reap, Southeast Asia travel"
+    />
+    <meta name="author" content="Mia Sothea" />
+    <meta
+      property="og:title"
+      content="Khmer Wanderer — A Travel Blog Through Cambodia"
+    />
+    <meta
+      property="og:description"
+      content="Honest stories and practical guides from Cambodia's temples, rivers, and streets."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://khmerwanderer.com/" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1553531889-e6cf4d692b1b?w=1200"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Khmer Wanderer" />
+    <meta
+      name="twitter:description"
+      content="Travel stories from the heart of Cambodia."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=DM+Mono:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="canonical" href="https://khmerwanderer.com/" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Khmer Wanderer",
+        "description": "A travel blog dedicated to Cambodia",
+        "url": "https://khmerwanderer.com",
+        "author": { "@type": "Person", "name": "Mia Sothea" }
+      }
+    </script>
+  </head>
+  <body
+    class="bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 font-sans antialiased overflow-x-hidden transition-colors duration-300"
+  >
+    <nav
+      class="fixed inset-x-0 top-0 z-50 bg-white dark:bg-neutral-950 border-b border-neutral-100 dark:border-neutral-800 transition-colors duration-300"
+    >
+      <div
+        class="max-w-8xl mx-auto px-6 lg:px-16 flex items-center justify-between h-16"
+      >
+        <a href="index.html" class="font-display text-xl font-bold"
+          >Khmer <em class="font-normal italic">Wanderer</em></a
+        >
+        <ul class="hidden md:flex items-center gap-10 list-none m-0 p-0">
+          <li>
+            <a
+              href="index.html"
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-900 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="blog.html"
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+              >Stories</a
+            >
+          </li>
+          <li>
+            <a
+              href="destinations.html"
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 dark:text-neutral-100"
+              >Destinations</a
+            >
+          </li>
+          <li>
+            <a
+              href="about.html"
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="flex items-center gap-2">
+          <button
+            class="dark-toggle-btn w-9 h-9 flex items-center justify-center rounded-full text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-100 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+            aria-label="Toggle dark mode"
+          ></button>
+          <button
+            id="menu-btn"
+            class="md:hidden w-9 h-9 flex items-center justify-center text-neutral-500"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- MOBILE MENU -->
+    <div
+      id="mobile-menu"
+      class="hidden fixed inset-x-0 top-16 bottom-0 z-40 bg-white dark:bg-neutral-950 border-t border-neutral-100 dark:border-neutral-800 flex flex-col p-8 gap-0"
+    >
+      <a
+        href="index.html"
+        class="py-4 font-display text-2xl border-b border-neutral-100 dark:border-neutral-800 text-neutral-900 dark:text-neutral-100 hover:opacity-50 transition-opacity"
+        >Home</a
+      >
+      <a
+        href="blog.html"
+        class="py-4 font-display text-2xl border-b border-neutral-100 dark:border-neutral-800 text-neutral-900 dark:text-neutral-100 hover:opacity-50 transition-opacity"
+        >Stories</a
+      >
+      <a
+        href="destinations.html"
+        class="py-4 font-display text-2xl border-b border-neutral-100 dark:border-neutral-800 text-neutral-900 dark:text-neutral-100 hover:opacity-50 transition-opacity"
+        >Destinations</a
+      >
+      <a
+        href="about.html"
+        class="py-4 font-display text-2xl border-b border-neutral-100 dark:border-neutral-800 text-neutral-900 dark:text-neutral-100 hover:opacity-50 transition-opacity"
+        >About</a
+      >
+      <a
+        href="contact.html"
+        class="py-4 font-display text-2xl text-neutral-900 dark:text-neutral-100 hover:opacity-50 transition-opacity"
+        >Contact</a
+      >
+      <div class="pt-6">
+        <button
+          id="dark-toggle-mobile"
+          class="dark-toggle-btn w-9 h-9 flex items-center justify-center text-neutral-500"
+          aria-label="Toggle dark mode"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <section
+      class="relative min-h-screen pt-16 flex items-center justify-center overflow-hidden"
+    >
+      <div class="absolute inset-0 z-0" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1553531889-e6cf4d692b1b?w=1600&q=80&auto=format&fit=crop"
+          alt=""
+          loading="eager"
+          class="w-full h-full object-cover 0 opacity-10 dark:opacity-[0.07]"
+        />
+      </div>
+      <div class="relative z-10 text-center px-6 max-w-4xl mx-auto py-24">
+        <p
+          class="animate-fade-up [animation-delay:100ms] font-mono text-xs tracking-widest2 uppercase text-neutral-400 dark:text-neutral-500 mb-8"
+        >
+          Est. 2019 · Cambodia Travel Guide
+        </p>
+        <h1
+          class="animate-fade-up [animation-delay:200ms] font-display font-black tracking-tighter leading-none text-neutral-900 dark:text-neutral-100 mb-6"
+          style="font-size: clamp(3.25rem, 9vw, 7.5rem)"
+        >
+          Travel <em class="font-normal italic">slowly.</em><br />See
+          <em class="font-normal italic">deeply.</em>
+        </h1>
+        <p
+          class="animate-fade-up [animation-delay:300ms] font-sans text-lg font-light text-neutral-500 dark:text-neutral-400 leading-relaxed max-w-xl mx-auto mb-12"
+        >
+          Stories, guides, and quiet observations from Cambodia's temples,
+          rivers, markets, and forgotten roads.
+        </p>
+        <div
+          class="animate-fade-up [animation-delay:400ms] flex justify-center flex-wrap gap-4"
+        >
+          <a
+            href="blog.html"
+            class="inline-flex items-center gap-2 px-7 py-3 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 font-mono text-xs font-medium tracking-widest uppercase hover:opacity-80 transition-opacity duration-200"
+          >
+            Read Stories
+          </a>
+          <a
+            href="destinations.html"
+            class="inline-flex items-center gap-2 px-7 py-3 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 font-mono text-xs font-medium tracking-widest uppercase hover:border-neutral-900 dark:hover:border-neutral-100 transition-colors duration-200"
+          >
+            Explore Places
+          </a>
+        </div>
+      </div>
+      <div
+        class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in [animation-delay:700ms]"
+      ></div>
+    </section>
+
+    <!-- INTRO STRIP -->
+    <section class="py-20 border-b border-neutral-100 dark:border-neutral-800">
+      <div
+        class="max-w-8xl mx-auto px-6 lg:px-16 flex flex-col md:flex-row gap-10 md:gap-20"
+      >
+        <div
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out flex-1"
+        >
+          <div class="flex items-center gap-4 mb-6">
+            <div class="w-8 h-px bg-neutral-900 dark:bg-neutral-100"></div>
+            <span
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400"
+              >What is this</span
+            >
+          </div>
+          <p
+            class="font-display text-2xl md:text-3xl font-bold tracking-tight leading-snug text-neutral-900 dark:text-neutral-100"
+          >
+            Authentic Cambodia travel experiences —<br
+              class="hidden md:block"
+            />
+            beyond the guidebook.
+          </p>
+        </div>
+        <div
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out flex-1"
+          data-delay="150"
+        >
+          <p
+            class="font-sans text-base font-light text-neutral-500 dark:text-neutral-400 leading-relaxed mb-8"
+          >
+            Khmer Wanderer started as a notebook. It grew into something larger:
+            a record of conversations with tuk-tuk drivers, monks, and market
+            sellers. Of sunrises over Angkor that no photograph can replicate.
+            Of roads that don't appear on any map.
+          </p>
+          <a
+            href="about.html"
+            class="inline-flex items-center gap-2 px-6 py-3 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 font-mono text-xs font-medium tracking-widest uppercase hover:border-neutral-900 dark:hover:border-neutral-100 transition-colors duration-200"
+          >
+            About the project
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED STORY -->
+    <section class="py-24 max-w-8xl mx-auto px-6 lg:px-16">
+      <div
+        class="flex items-center gap-4 mb-12 opacity-0 translate-y-5 transition-all duration-700 ease-out"
+      >
+        <div class="w-8 h-px bg-neutral-900 dark:bg-neutral-100"></div>
+        <span
+          class="font-mono text-xs tracking-widest2 uppercase text-neutral-400"
+          >Featured Story</span
+        >
+      </div>
+      <a
+        href="article.html?id=angkor-wat"
+        class="opacity-0 translate-y-5 transition-all duration-700 ease-out group flex flex-col md:flex-row border border-neutral-100 dark:border-neutral-800 overflow-hidden hover:border-neutral-300 dark:hover:border-neutral-600 transition-colors duration-300 block"
+        data-delay="100"
+      >
+        <div
+          class="md:w-1/2 aspect-[4/3] md:aspect-auto overflow-hidden"
+          style="min-height: 340px"
+        >
+          <img
+            src="https://i.pinimg.com/1200x/2f/65/6e/2f656edd8b16b54181cd811925a33313.jpg"
+            alt="Angkor Wat at dawn, mist rising over stone towers"
+            loading="lazy"
+            class="w-full h-full object-cover 0 group-hover:scale-[1.03] transition-transform duration-600 ease-out"
+            style="min-height: 340px"
+          />
+        </div>
+        <div class="flex-1 flex flex-col justify-center p-8 md:p-14">
+          <span
+            class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 dark:text-neutral-500 mb-3"
+            >Temples · Siem Reap</span
+          >
+          <h2
+            class="font-display font-bold tracking-tight leading-tight text-neutral-900 dark:text-neutral-100 mb-5 group-hover:opacity-60 transition-opacity duration-300"
+            style="font-size: clamp(1.5rem, 2.5vw, 2.25rem)"
+          >
+            Before the Crowds: Angkor Wat at 4:30 AM
+          </h2>
+          <p
+            class="font-sans text-base font-light text-neutral-500 dark:text-neutral-400 leading-relaxed mb-8"
+          >
+            Every guidebook tells you to arrive early. None of them tell you
+            what it actually feels like to stand alone in the dark as the first
+            light touches eight centuries of stone — and realize the silence is
+            the point.
+          </p>
+          <div
+            class="flex items-center justify-between font-mono text-xs text-neutral-400"
+          >
+            <span>Mia Sothea</span>
+            <span>12 min read · March 2024</span>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <!-- RECENT STORIES -->
+    <section class="pb-24 max-w-8xl mx-auto px-6 lg:px-16">
+      <div class="flex items-end justify-between mb-12">
+        <div
+          class="flex items-center gap-4 opacity-0 translate-y-5 transition-all duration-700 ease-out"
+        >
+          <div class="w-8 h-px bg-neutral-900 dark:bg-neutral-100"></div>
+          <span
+            class="font-mono text-xs tracking-widest2 uppercase text-neutral-400"
+            >Recent Stories</span
+          >
+        </div>
+        <a
+          href="blog.html"
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out font-mono text-xs font-medium tracking-widest uppercase text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 border border-neutral-200 dark:border-neutral-700 px-5 py-2.5 hover:border-neutral-900 dark:hover:border-neutral-100 transition-colors duration-200"
+          data-delay="100"
+        >
+          All Stories →
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out group border border-neutral-100 dark:border-neutral-800 overflow-hidden hover:border-neutral-300 dark:hover:border-neutral-600 hover:-translate-y-0.5 transition-all duration-300"
+        >
+          <a href="article.html?id=phnom-penh-riverside" class="block">
+            <div class="aspect-[3/2] overflow-hidden">
+              <img
+                src="https://i.pinimg.com/1200x/2a/d1/f1/2ad1f19313a549b90cedbfa69b932d81.jpg"
+                alt="Phnom Penh riverside at dusk"
+                loading="lazy"
+                class="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-600 ease-out"
+              />
+            </div>
+            <div class="p-6">
+              <span
+                class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 dark:text-neutral-500 block mb-3"
+                >City Life · Phnom Penh</span
+              >
+              <h3
+                class="font-display font-bold text-lg leading-snug tracking-tight text-neutral-900 dark:text-neutral-100 mb-2 group-hover:opacity-60 transition-opacity duration-300"
+              >
+                Phnom Penh's Riverside at the Hour Between Day and Night
+              </h3>
+              <p
+                class="font-sans text-sm font-light text-neutral-500 dark:text-neutral-400 leading-relaxed line-clamp-3 mb-5"
+              >
+                The promenade empties of tourists by 6 PM. That's when the real
+                city shows up — families on plastic stools, old men feeding
+                pigeons, teenagers on motorbikes.
+              </p>
+              <div
+                class="flex items-center justify-between font-mono text-xs text-neutral-400"
+              >
+                <span>Mia Sothea</span><span>7 min</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out group border border-neutral-100 dark:border-neutral-800 overflow-hidden hover:border-neutral-300 dark:hover:border-neutral-600 hover:-translate-y-0.5 transition-all duration-300"
+          data-delay="100"
+        >
+          <a href="article.html?id=floating-village" class="block">
+            <div class="aspect-[3/2] overflow-hidden">
+              <img
+                src="https://i.pinimg.com/1200x/3b/7e/97/3b7e973c4dd9fd8251bfab78d43857a3.jpg"
+                alt="Floating village Tonle Sap"
+                loading="lazy"
+                class="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-600 ease-out"
+              />
+            </div>
+            <div class="p-6">
+              <span
+                class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 dark:text-neutral-500 block mb-3"
+                >Village Life · Tonle Sap</span
+              >
+              <h3
+                class="font-display font-bold text-lg leading-snug tracking-tight text-neutral-900 dark:text-neutral-100 mb-2 group-hover:opacity-60 transition-opacity duration-300"
+              >
+                The Floating Village That Lives on Water
+              </h3>
+              <p
+                class="font-sans text-sm font-light text-neutral-500 dark:text-neutral-400 leading-relaxed line-clamp-3 mb-5"
+              >
+                Kompong Khleang has no roads. The children go to school by
+                canoe. The pigs live on platforms. It is extraordinary, ordinary
+                life.
+              </p>
+              <div
+                class="flex items-center justify-between font-mono text-xs text-neutral-400"
+              >
+                <span>Mia Sothea</span><span>9 min</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out group border border-neutral-100 dark:border-neutral-800 overflow-hidden hover:border-neutral-300 dark:hover:border-neutral-600 hover:-translate-y-0.5 transition-all duration-300"
+          data-delay="200"
+        >
+          <a href="article.html?id=food-guide" class="block">
+            <div class="aspect-[3/2] overflow-hidden">
+              <img
+                src="https://i.pinimg.com/1200x/c6/a6/b0/c6a6b0b83358e66bdd3959c9bfaaec15.jpg"
+                alt="Cambodian street food market"
+                loading="lazy"
+                class="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-600 ease-out"
+              />
+            </div>
+            <div class="p-6">
+              <span
+                class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 dark:text-neutral-500 block mb-3"
+                >Food · Everywhere</span
+              >
+              <h3
+                class="font-display font-bold text-lg leading-snug tracking-tight text-neutral-900 dark:text-neutral-100 mb-2 group-hover:opacity-60 transition-opacity duration-300"
+              >
+                A Complete Guide to Eating on $5 a Day in Cambodia
+              </h3>
+              <p
+                class="font-sans text-sm font-light text-neutral-500 dark:text-neutral-400 leading-relaxed line-clamp-3 mb-5"
+              >
+                Fish amok. Bai sach chrouk. Nom banh chok. The best meals in
+                Cambodia cost less than your airport coffee and happen before 8
+                AM.
+              </p>
+              <div
+                class="flex items-center justify-between font-mono text-xs text-neutral-400"
+              >
+                <span>Mia Sothea</span><span>11 min</span>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section
+      class="py-20 bg-neutral-50 dark:bg-neutral-900 border-y border-neutral-100 dark:border-neutral-800"
+    >
+      <div class="max-w-8xl mx-auto px-6 lg:px-16">
+        <div
+          class="grid grid-cols-2 lg:grid-cols-4 gap-px bg-neutral-200 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-800"
+        >
+          <div
+            class="opacity-0 translate-y-5 transition-all duration-700 ease-out bg-neutral-50 dark:bg-neutral-900 p-8"
+          >
+            <div
+              class="font-display font-black text-5xl md:text-6xl tracking-tighter text-neutral-900 dark:text-neutral-100 mb-2"
+            >
+              23
+            </div>
+            <div
+              class="font-sans text-sm font-light text-neutral-500 dark:text-neutral-400"
+            >
+              Provinces visited across Cambodia
+            </div>
+          </div>
+          <div
+            class="opacity-0 translate-y-5 transition-all duration-700 ease-out bg-neutral-50 dark:bg-neutral-900 p-8"
+            data-delay="100"
+          >
+            <div
+              class="font-display font-black text-5xl md:text-6xl tracking-tighter text-neutral-900 dark:text-neutral-100 mb-2"
+            >
+              4
+            </div>
+            <div
+              class="font-sans text-sm font-light text-neutral-500 dark:text-neutral-400"
+            >
+              Years of slow travel on the ground
+            </div>
+          </div>
+          <div
+            class="opacity-0 translate-y-5 transition-all duration-700 ease-out bg-neutral-50 dark:bg-neutral-900 p-8"
+            data-delay="200"
+          >
+            <div
+              class="font-display font-black text-5xl md:text-6xl tracking-tighter text-neutral-900 dark:text-neutral-100 mb-2"
+            >
+              68
+            </div>
+            <div
+              class="font-sans text-sm font-light text-neutral-500 dark:text-neutral-400"
+            >
+              Stories published on this site
+            </div>
+          </div>
+          <div
+            class="opacity-0 translate-y-5 transition-all duration-700 ease-out bg-neutral-50 dark:bg-neutral-900 p-8"
+            data-delay="300"
+          >
+            <div
+              class="font-display font-black text-5xl md:text-6xl tracking-tighter text-neutral-900 dark:text-neutral-100 mb-2"
+            >
+              1
+            </div>
+            <div
+              class="font-sans text-sm font-light text-neutral-500 dark:text-neutral-400"
+            >
+              Principle: always go off the beaten path
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTINATIONS GRID -->
+    <section class="py-24 max-w-8xl mx-auto px-6 lg:px-16">
+      <div class="flex items-end justify-between mb-12">
+        <div>
+          <div
+            class="flex items-center gap-4 mb-4 opacity-0 translate-y-5 transition-all duration-700 ease-out"
+          >
+            <div class="w-8 h-px bg-neutral-900 dark:bg-neutral-100"></div>
+            <span
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400"
+              >Destinations</span
+            >
+          </div>
+          <h2
+            class="opacity-0 translate-y-5 transition-all duration-700 ease-out font-display font-bold tracking-tighter text-neutral-900 dark:text-neutral-100"
+            style="font-size: clamp(2rem, 4vw, 3.25rem)"
+            data-delay="100"
+          >
+            Where to go in Cambodia
+          </h2>
+        </div>
+        <a
+          href="destinations.html"
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out font-mono text-xs font-medium tracking-widest uppercase text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 border border-neutral-200 dark:border-neutral-700 px-5 py-2.5 hover:border-neutral-900 dark:hover:border-neutral-100 transition-colors duration-200"
+          data-delay="200"
+          >View all →</a
+        >
+      </div>
+
+      <div
+        class="opacity-0 translate-y-5 transition-all duration-700 ease-out grid grid-cols-2 md:grid-cols-3 gap-px bg-neutral-200 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-800"
+        data-delay="150"
+      >
+        <a
+          href="destinations.html"
+          class="group bg-white dark:bg-neutral-950 p-8 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-colors duration-200"
+        >
+          <div class="font-mono text-xs tracking-widest2 text-neutral-400 mb-3">
+            01
+          </div>
+          <div
+            class="font-display text-xl font-bold text-neutral-900 dark:text-neutral-100 mb-1"
+          >
+            Siem Reap
+          </div>
+          <div class="font-sans text-sm text-neutral-500 dark:text-neutral-400">
+            Northwestern Cambodia
+          </div>
+        </a>
+        <a
+          href="destinations.html"
+          class="group bg-white dark:bg-neutral-950 p-8 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-colors duration-200"
+        >
+          <div class="font-mono text-xs tracking-widest2 text-neutral-400 mb-3">
+            02
+          </div>
+          <div
+            class="font-display text-xl font-bold text-neutral-900 dark:text-neutral-100 mb-1"
+          >
+            Phnom Penh
+          </div>
+          <div class="font-sans text-sm text-neutral-500 dark:text-neutral-400">
+            Capital City
+          </div>
+        </a>
+        <a
+          href="destinations.html"
+          class="group bg-white dark:bg-neutral-950 p-8 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-colors duration-200"
+        >
+          <div class="font-mono text-xs tracking-widest2 text-neutral-400 mb-3">
+            03
+          </div>
+          <div
+            class="font-display text-xl font-bold text-neutral-900 dark:text-neutral-100 mb-1"
+          >
+            Kampot
+          </div>
+          <div class="font-sans text-sm text-neutral-500 dark:text-neutral-400">
+            Southern Coast
+          </div>
+        </a>
+        <a
+          href="destinations.html"
+          class="group bg-white dark:bg-neutral-950 p-8 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-colors duration-200"
+        >
+          <div class="font-mono text-xs tracking-widest2 text-neutral-400 mb-3">
+            04
+          </div>
+          <div
+            class="font-display text-xl font-bold text-neutral-900 dark:text-neutral-100 mb-1"
+          >
+            Koh Rong
+          </div>
+          <div class="font-sans text-sm text-neutral-500 dark:text-neutral-400">
+            Gulf of Thailand
+          </div>
+        </a>
+        <a
+          href="destinations.html"
+          class="group bg-white dark:bg-neutral-950 p-8 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-colors duration-200"
+        >
+          <div class="font-mono text-xs tracking-widest2 text-neutral-400 mb-3">
+            05
+          </div>
+          <div
+            class="font-display text-xl font-bold text-neutral-900 dark:text-neutral-100 mb-1"
+          >
+            Battambang
+          </div>
+          <div class="font-sans text-sm text-neutral-500 dark:text-neutral-400">
+            Northwestern Plains
+          </div>
+        </a>
+        <a
+          href="destinations.html"
+          class="group bg-white dark:bg-neutral-950 p-8 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-colors duration-200"
+        >
+          <div class="font-mono text-xs tracking-widest2 text-neutral-400 mb-3">
+            06
+          </div>
+          <div
+            class="font-display text-xl font-bold text-neutral-900 dark:text-neutral-100 mb-1"
+          >
+            Mondulkiri
+          </div>
+          <div class="font-sans text-sm text-neutral-500 dark:text-neutral-400">
+            Eastern Highlands
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- PULLQUOTE -->
+    <section class="py-20 border-y border-neutral-100 dark:border-neutral-800">
+      <div class="max-w-8xl mx-auto px-6 lg:px-16 flex justify-center">
+        <blockquote
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out text-center max-w-3xl"
+        >
+          <p
+            class="font-display font-normal italic text-neutral-900 dark:text-neutral-100 leading-snug"
+            style="font-size: clamp(1.5rem, 3vw, 2.5rem)"
+          >
+            "Cambodia is not a destination you visit. It is a place that visits
+            you — long after you've gone home."
+          </p>
+          <cite
+            class="block mt-6 font-mono text-xs tracking-widest2 uppercase text-neutral-400 not-italic"
+            >Mia Sothea · Khmer Wanderer</cite
+          >
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- LIST VIEW — MORE STORIES -->
+    <section class="py-24 max-w-8xl mx-auto px-6 lg:px-16">
+      <div
+        class="flex items-center gap-4 mb-12 opacity-0 translate-y-5 transition-all duration-700 ease-out"
+      >
+        <div class="w-8 h-px bg-neutral-900 dark:bg-neutral-100"></div>
+        <span
+          class="font-mono text-xs tracking-widest2 uppercase text-neutral-400"
+          >Also Worth Reading</span
+        >
+      </div>
+      <div
+        class="border border-neutral-100 dark:border-neutral-800 overflow-hidden divide-y divide-neutral-100 dark:divide-neutral-800"
+      >
+        <a
+          href="article.html?id=bamboo-train"
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out flex items-start gap-5 p-6 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-colors duration-200 block"
+        >
+          <div class="flex-shrink-0 w-20 h-20 overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=200&q=80&auto=format&fit=crop"
+              alt="Bamboo train Battambang"
+              loading="lazy"
+              class="0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="flex-1 min-w-0">
+            <div
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 mb-1"
+            >
+              Transport · Battambang
+            </div>
+            <h3
+              class="font-display font-bold text-lg leading-snug text-neutral-900 dark:text-neutral-100 mb-1"
+            >
+              Riding the Bamboo Train: The Slowest, Best Journey in Cambodia
+            </h3>
+            <span class="font-mono text-xs text-neutral-400">8 min read</span>
+          </div>
+        </a>
+        <a
+          href="article.html?id=mekong-dolphins"
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out flex items-start gap-5 p-6 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-colors duration-200 block"
+          data-delay="100"
+        >
+          <div class="flex-shrink-0 w-20 h-20 overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=200&q=80&auto=format&fit=crop"
+              alt="Mekong Kratie"
+              loading="lazy"
+              class="0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="flex-1 min-w-0">
+            <div
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 mb-1"
+            >
+              Nature · Kratie
+            </div>
+            <h3
+              class="font-display font-bold text-lg leading-snug text-neutral-900 dark:text-neutral-100 mb-1"
+            >
+              Searching for the Irrawaddy Dolphin on the Mekong at Kratie
+            </h3>
+            <span class="font-mono text-xs text-neutral-400">6 min read</span>
+          </div>
+        </a>
+        <a
+          href="article.html?id=kampot-pepper"
+          class="opacity-0 translate-y-5 transition-all duration-700 ease-out flex items-start gap-5 p-6 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-colors duration-200 block"
+          data-delay="200"
+        >
+          <div class="flex-shrink-0 w-20 h-20 overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=200&q=80&auto=format&fit=crop"
+              alt="Kampot pepper farm"
+              loading="lazy"
+              class="0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="flex-1 min-w-0">
+            <div
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 mb-1"
+            >
+              Agriculture · Kampot
+            </div>
+            <h3
+              class="font-display font-bold text-lg leading-snug text-neutral-900 dark:text-neutral-100 mb-1"
+            >
+              Inside a Kampot Pepper Farm: The Spice That Built an Empire
+            </h3>
+            <span class="font-mono text-xs text-neutral-400">5 min read</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="bg-neutral-100 dark:bg-neutral-950 py-20">
+      <div class="max-w-8xl mx-auto px-6 lg:px-16">
+        <div class="max-w-xl">
+          <!-- LABEL -->
+          <div class="flex items-center gap-4 mb-6">
+            <div class="w-8 h-px bg-neutral-300 dark:bg-white/20"></div>
+
+            <span
+              class="font-mono text-xs tracking-widest uppercase text-amber-600/70 dark:text-amber-400/70"
+            >
+              Newsletter
+            </span>
+          </div>
+
+          <!-- TITLE -->
+          <h2
+            class="font-display font-bold tracking-tighter text-neutral-900 dark:text-white mb-4"
+            style="font-size: clamp(1.75rem, 3vw, 2.5rem)"
+          >
+            Letters from Cambodia. Monthly.
+          </h2>
+
+          <!-- DESCRIPTION -->
+          <p
+            class="font-sans text-base font-light text-neutral-600 dark:text-neutral-400 mb-8"
+          >
+            No algorithm. No brand deals. One story a month, straight to your
+            inbox.
+          </p>
+
+          <!-- FORM -->
+          <div class="flex border border-neutral-200 dark:border-neutral-700">
+            <input
+              type="email"
+              placeholder="your@email.com"
+              aria-label="Email address"
+              class="flex-1 px-5 py-3.5 bg-white dark:bg-neutral-900 outline-none font-sans text-sm text-neutral-900 dark:text-white placeholder-neutral-500 dark:placeholder-white/40"
+            />
+
+            <button
+              type="button"
+              class="px-6 py-3.5 bg-neutral-900 text-white dark:bg-white dark:text-neutral-900 font-mono text-xs font-medium tracking-widest uppercase whitespace-nowrap hover:bg-amber-400 hover:text-white dark:hover:bg-amber-500 transition-all"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer
+      class="bg-neutral-50 dark:bg-neutral-900 border-t border-neutral-100 dark:border-neutral-800 pt-16 pb-8"
+    >
+      <div class="max-w-8xl mx-auto px-6 lg:px-16">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+          <div class="md:col-span-1">
+            <div
+              class="font-display text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-4"
+            >
+              Khmer <em class="font-normal italic">Wanderer</em>
+            </div>
+            <p
+              class="font-sans text-sm font-light text-neutral-500 dark:text-neutral-400 leading-relaxed max-w-xs"
+            >
+              An independent travel guide to Cambodia. Written slowly. Designed
+              to last.
+            </p>
+          </div>
+          <div>
+            <div
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 mb-5"
+            >
+              Navigate
+            </div>
+            <ul class="space-y-3 list-none p-0">
+              <li>
+                <a
+                  href="index.html"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="blog.html"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >Stories</a
+                >
+              </li>
+              <li>
+                <a
+                  href="destinations.html"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >Destinations</a
+                >
+              </li>
+              <li>
+                <a
+                  href="about.html"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 mb-5"
+            >
+              Topics
+            </div>
+            <ul class="space-y-3 list-none p-0">
+              <li>
+                <a
+                  href="blog.html"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >Temples</a
+                >
+              </li>
+              <li>
+                <a
+                  href="blog.html"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >Food & Markets</a
+                >
+              </li>
+              <li>
+                <a
+                  href="blog.html"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >Village Life</a
+                >
+              </li>
+              <li>
+                <a
+                  href="blog.html"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >Travel Tips</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div
+              class="font-mono text-xs tracking-widest2 uppercase text-neutral-400 mb-5"
+            >
+              Follow
+            </div>
+            <ul class="space-y-3 list-none p-0">
+              <li>
+                <a
+                  href="#"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >Twitter / X</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="font-sans text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+                  >RSS Feed</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-between flex-wrap gap-4 pt-8 border-t border-neutral-100 dark:border-neutral-800"
+        >
+          <span class="font-mono text-xs text-neutral-400"
+            >© 2024 Khmer Wanderer. Made with care in Phnom Penh.</span
+          >
+          <span class="font-mono text-xs text-neutral-400 tracking-wider"
+            >KH · EN</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button
+      id="back-to-top"
+      aria-label="Back to top"
+      class="fixed bottom-8 right-8 z-50 w-11 h-11 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-full flex items-center justify-center hover:opacity-75 transition-opacity"
+    >
+      <svg
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <line x1="12" y1="19" x2="12" y2="5" />
+        <polyline points="5 12 12 5 19 12" />
+      </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
