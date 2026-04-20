@@ -179,58 +179,55 @@
       </div>
     </div>
 
-    <!-- HERO -->
-    <section
-      class="relative min-h-screen pt-16 flex items-center justify-center overflow-hidden"
+   <!-- HERO -->
+<section class="relative max-w-7xl flex items-center overflow-hidden bg-[#0a0a0a]">
+
+  <video
+    class="absolute inset-0 w-full h-full object-cover opacity-45 z-0"
+    id="hero-video"
+    autoplay muted loop playsinline
+    poster="https://images.unsplash.com/photo-1553531889-e6cf4d692b1b?w=1200&q=60&auto=format&fit=crop"
+  >
+    <source src="./css/19245100-uhd_3840_2160_30fps.mp4" type="video/mp4" />
+  </video>
+
+  <div
+    class="absolute inset-0 z-10"
+    style="background: linear-gradient(to bottom, rgba(0,0,0,.35) 0%, rgba(0,0,0,.5) 60%, rgba(0,0,0,.75) 100%)"
+    aria-hidden="true"
+  ></div>
+
+ 
+
+  <!-- Content — left-aligned, padded from left edge -->
+  <div class="relative z-20 text-left px-6 lg:px-16 max-w-5xl py-20">
+ 
+    <h1
+      class="font-display font-black tracking-tighter leading-none text-white mb-6"
+      style="font-size: clamp(3rem, 9vw, 7rem)"
     >
-      <div class="absolute inset-0 z-0" aria-hidden="true">
-        <img
-          src="https://images.unsplash.com/photo-1553531889-e6cf4d692b1b?w=1600&q=80&auto=format&fit=crop"
-          alt=""
-          loading="eager"
-          class="w-full h-full object-cover 0 opacity-10 dark:opacity-[0.07]"
-        />
-      </div>
-      <div class="relative z-10 text-center px-6 max-w-4xl mx-auto py-24">
-        <p
-          class="animate-fade-up [animation-delay:100ms] font-mono text-xs tracking-widest2 uppercase text-neutral-400 dark:text-neutral-500 mb-8"
-        >
-          Est. 2019 · Cambodia Travel Guide
-        </p>
-        <h1
-          class="animate-fade-up [animation-delay:200ms] font-display font-black tracking-tighter leading-none text-neutral-900 dark:text-neutral-100 mb-6"
-          style="font-size: clamp(3.25rem, 9vw, 7.5rem)"
-        >
-          Travel <em class="font-normal italic">slowly.</em><br />See
-          <em class="font-normal italic">deeply.</em>
-        </h1>
-        <p
-          class="animate-fade-up [animation-delay:300ms] font-sans text-lg font-light text-neutral-500 dark:text-neutral-400 leading-relaxed max-w-xl mx-auto mb-12"
-        >
-          Stories, guides, and quiet observations from Cambodia's temples,
-          rivers, markets, and forgotten roads.
-        </p>
-        <div
-          class="animate-fade-up [animation-delay:400ms] flex justify-center flex-wrap gap-4"
-        >
-          <a
-            href="blog.html"
-            class="inline-flex items-center gap-2 px-7 py-3 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 font-mono text-xs font-medium tracking-widest uppercase hover:opacity-80 transition-opacity duration-200"
-          >
-            Read Stories
-          </a>
-          <a
-            href="destinations.html"
-            class="inline-flex items-center gap-2 px-7 py-3 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 font-mono text-xs font-medium tracking-widest uppercase hover:border-neutral-900 dark:hover:border-neutral-100 transition-colors duration-200"
-          >
-            Explore Places
-          </a>
-        </div>
-      </div>
-      <div
-        class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in [animation-delay:700ms]"
-      ></div>
-    </section>
+      Travel <em class="font-normal italic">slowly.</em><br />
+      See <em class="font-normal italic">deeply.</em>
+    </h1>
+    <p class="font-sans text-lg font-light text-white/60 leading-relaxed max-w-xl mb-12">
+      Stories, guides, and quiet observations from Cambodia's temples,
+      rivers, markets, and forgotten roads.
+    </p>
+    <div class="flex flex-wrap gap-4">
+      <a href="blog.html"
+        class="inline-flex items-center gap-2 px-7 py-3 bg-white text-neutral-900 font-mono text-[10px] font-bold tracking-[.18em] uppercase hover:opacity-85 transition-opacity">
+        Read Stories
+      </a>
+      <a href="destinations.html"
+        class="inline-flex items-center gap-2 px-7 py-3 border border-white/35 text-white font-mono text-[10px] font-bold tracking-[.18em] uppercase hover:border-white/85 transition-colors">
+        Explore Places
+      </a>
+    </div>
+  </div>
+
+ 
+
+</section>
 
     <!-- INTRO STRIP -->
     <section class="py-20 border-b border-neutral-100 dark:border-neutral-800">
